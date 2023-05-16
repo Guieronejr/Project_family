@@ -8,8 +8,7 @@ def homepage():
 
 @app.route("/usuario")
 def usuário():
-    return "colocar nome que gostaria de ser chamado"
-
+    return "<p>colocar nome que gostaria de ser chamado</p><p>coloque seu nome aqui<p/>"
 
 app.run()
 
